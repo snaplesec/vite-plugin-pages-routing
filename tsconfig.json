@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "strict": true,
+    "jsx": "preserve",
+    "sourceMap": true,
+    "lib": ["esnext", "dom"],
+    "types": ["vite-plugin-pages/client", "vite/client","node"],
+    "plugins": [{ "name": "@vuedx/typescript-plugin-vue" }],
+    "isolatedModules": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true
+  },
+  "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "src/**/*.vue", "src/entry-client.js", "src/entry-server.js", "src/router.ts", "src/main.js", "src/pages/index.vue", "src/pages/cc.vue", "src/pages/HealthCheck.vue", "src/components/TheFooter.vue", "src/components/TheHeader.vue", "src/components/AppHeader.vue", "src/components/AppFooter.vue", "src/components/TheFooter.vue", "src/components/TheHeader.vue"]
+}
